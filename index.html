@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Crystals Collector!</title>
+	<title>Crystal Collector!</title>
 
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 
 <body>
+
+<h1>Crystal Collector</h1>
+<ul id="instructions">Instructions:
+   <li>At the start of each game, you will be given a random number.</li>
+   <li>Click on each crystal to add to your total score.</li>
+   <li>Each of the four crystals represent a different number.</li>
+   <li>Match your total score to the random number to win!</li>
+ </ul>
+
+<div class="mainContainer">
+	
+	<div id="crystals"></div>
+
+	<div class="left">
+		<p class="box">Random Number:
+			<br>
+			<span id="number">0</span>
+		</p>
+
+		<p class="box">Your Total Score:
+			<br>
+			<span id="totalScore">0</span>
+		</p>
+	</div>
+
+	<div class="right">
+		<p class="box">Wins:
+			<br> 
+			<span id="wins">0</span>
+		</p>
+
+		<p class="box">Losses: 
+			<br>
+			<span id="losses">0</span>
+		</p>
+
+	</div>
+
+</div>
 
 </body>
 </html>

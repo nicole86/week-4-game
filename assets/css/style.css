@@ -1,0 +1,45 @@
+ h1 {
+ 	font-size: 80pt;
+ 	font-style: bold;
+ 	text-align: center;
+ 	color: white;
+ }
+ body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+ }
+#instructions {
+	font-size: 15pt;
+	color: white;
+}
+ .crystalImage {
+      width: 180px;
+      height: 180px;
+      margin: 30px;
+      border: solid white 5px;
+    }
+.mainContainer {
+	margin: 0 auto;
+	width: 1000px;
+}
+.box {
+	border-radius: 25px;
+	padding: 25px;
+	border: 
+	width: 250px;
+	text-align: center;
+	color: black;
+	font-size: 25pt;
+	font-style: georgia;
+	background-color: white;
+	margin: 20px; 
+
+}
+.left {
+	float: left;
+}
+.right {
+	float:right;
+}
